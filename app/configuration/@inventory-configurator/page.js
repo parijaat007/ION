@@ -2,11 +2,10 @@ import Image from 'next/image'
 import "@/app/globals.css";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 
-export default function Home() {
+export default function InventoryConfigurator() {
   return (
     <div>
-      <a href="/api/auth/login">Login</a>
-      <a href="/api/auth/logout">Logout</a>
+      <h2>configure the inventory here</h2>
     </div>
   );
 }
